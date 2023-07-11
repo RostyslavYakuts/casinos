@@ -1,0 +1,45 @@
+
+.casino-upload-form{
+    margin: 50px 15px;
+}
+.casino-upload-form input{
+    display: block;
+}
+.casino-upload-form legend{
+    font-size: 18px;
+}
+.casino-upload-form fieldset{
+    border: 1px solid grey;
+    padding: 15px;
+}
+.casino-upload-form button{
+    padding: 15px;
+    background: #0a4b78;
+    color: white;
+    width: 250px;
+    text-align: center;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.casino-upload-form button:disabled{
+    background: #405764;
+    cursor: progress;
+}
+
+.casino-upload-counter{
+    margin: 30px 0;
+}
+.casino-upload-counter .current-page{
+    color: #009688;
+}
+.casino-upload-counter .total-pages{
+    color: #3f51b5;
+}
+.casino-upload-counter .current-page, .casino-upload-counter .total-pages{
+    font-weight: bold;
+}
+.upload-casino-warning{
+    font-weight: bold;
+    font-size: 16px;
+    color: red;
+}

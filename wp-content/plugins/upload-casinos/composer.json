@@ -1,0 +1,17 @@
+{
+  "name": "upload/casino",
+  "description": "plugin for test task",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Rostyslav",
+      "email": "rostwirt@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "UploadCasinos\\Classes\\": "./admin/classes"
+    }
+  }
+}
